@@ -68,13 +68,19 @@ KiwiScan is a platform that was developed to address some of these issues. It wa
 
 "A Tool for the Repeatable Generation and Automated Documentation of Land-use Classification Maps"
 
+Land-use classifications (LUCs) provide spatial information on different land uses over a given area, from local to national scale. They are typically constructed by applying complex rules over multiple spatial data sets, some of which require normalisation or pre-classification. While generally of good quality, documentation of this process is still variable and repeatability is a concern given the complexity involved. Most steps happen inside geographic information system (GIS) tools that do not strictly enforce documentation and data sets can be passed around researchers so tracking provenance can be problematic. Processing time for national scale LUCs is typically in the order of days. We present and discuss a tool created specifically to address these issues while optionally moving the creation of LUCs into the high-performance computing space. Called ‘pyluc’, it uses a single simplified Python script to define inputs and rules in a self-documenting way. Using this script, pyluc acquires input data from the original sources, applies the defined classification rules, and produces the resulting classification map along with supporting human-readable documentation and machine-readable W3C PROV data provenance information. Processing is raster-based (automatic rasterisation or reprojection of input data is provided) and tileable, with optional parallelisation that significantly reduces processing time. The only requirement to replicate a given LUC map with supporting documentation is the single pyluc definition script and the pyluc tool itself.
+
 ### Farhana Pinu (PFR)
 
 "First Draft Metabolic Reconstruction of a Wine Yeast"
 
+In this project, we are developing a metabolic model that will ultimately assist winemakers in identifying the effects of variable juice compositions and winemaking practices on the chemical composition of wines. In collaboration with the University of Queensland, Australia, we first developed the first CYC (online) database of Saccharomyces cerevisae EC1118 based on the publicly available genome annotations. This database was then used to generate the reconstruction of a mathematical model. This platform helped us to generate knowledge of wine yeast metabolism and fermentation behaviour. We curated and refined the draft reconstruction based on existing literature. Deletion, addition and modification of reactions, genes and metabolic pathways were carried out where appropriate to improve the draft model. The next step was to perform in silico juice manipulation experiments using an existing dataset that contains information about over 400 Sauvignon blanc grape juices and wines collected over four different harvesting seasons from different winegrowing regions of New Zealand. We also used data obtained from the literature. Based on these information, the model is now able to generate over 1000 hypotheses regarding primary metabolism of Saccharomyces cerevisae EC1118. These hypotheses can be used to design and perform winemaking experiments to answer specific scientific questions. The results will be included in the metabolic model to validate and improve the prediction capability.
+
 ### Burgueño, Eric (PFR)
 
 "Making Science Better: A Deep Dive into powerPlant"
+
+Have you ever heard of powerPlant and wondered exactly what it is? Are you using powerPlant already but want to know more? Then come along! In this presentation I will explain the reasons behind why powerPlant exists, why (and when) it is useful, and how you can use it to make your Science better. Also, something about a cat.
 
 ## Day 2 
 
@@ -93,6 +99,8 @@ This session will expand on Shannon’s presentation around data from disparate 
 ### Shannon Schlueter
 
 "Machine Learning for the Non-Computer Scientist: Where's the Easy Button"
+
+Shannon will 
 
 ### NeSI
 
