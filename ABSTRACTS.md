@@ -88,6 +88,8 @@ Principles of data visualisation. How do we compare sizes, shapes, areas, colour
 
 "Synergy from Heterogeneous Data"
 
+This session will expand on Shannon’s presentation around data from disparate sources and the concept of machine learning. You will learn to use machine learning and big data approaches particularly R machine learning, big data search engine (spark) and speech recognition libraries (NLTK).
+
 ### Shannon Schlueter
 
 "Machine Learning for the Non-Computer Scientist: Where's the Easy Button"
