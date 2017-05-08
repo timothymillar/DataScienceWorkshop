@@ -90,6 +90,12 @@ Have you ever heard of powerPlant and wondered exactly what it is? Are you using
 
 Principles of data visualisation. How do we compare sizes, shapes, areas, colours and how can we use them to create visually informative graphs. We will then extend this to look at multi-dimensional and time series data using the NIWA climate database.
 
+We also show an example of vizualising Twitter data in a 2-d scatter plot using the T-SNE data reduction algorithm, then run through a more practical t-sne example based on a few versions found online using the MNIST dataset.
+ 
+We wil also show to run javascript examples using D3/D3plus to show networks like this http://d3plus.org/examples/basic/9034389/,
+and a vega example where a 2-d scatter plot where you can follow points over time https://vega.github.io/vega/examples/global-development/
+ 
+
 ### Shannon Schlueter
 
 "Synergy from Heterogeneous Data"
@@ -100,7 +106,7 @@ This session will expand on Shannon’s presentation around data from disparate 
 
 "Machine Learning for the Non-Computer Scientist: Where's the Easy Button"
 
-Shannon will 
+Machine learning has become a tool atht s ised more often in teh research community to analyse Big Data. This course will introduce you to that technique on a beginner level. It will give you a basic understanding of the ML concept.
 
 ### NeSI
 
