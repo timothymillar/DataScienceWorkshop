@@ -76,5 +76,27 @@ KiwiScan is a platform that was developed to address some of these issues. It wa
 
 "Making Science Better: A Deep Dive into powerPlant"
 
+## Day 2 
+
+### Linley Jesson, Marcus Davy, Mark Wohlers
+
+"Data Visualisation"
+
+Principles of data visualisation. How do we compare sizes, shapes, areas, colours and how can we use them to create visually informative graphs. We will then extend this to look at multi-dimensional and time series data using the NIWA climate database.
+
+### Shannon Schlueter
+
+"Synergy from Heterogeneous Data"
+
+### Shannon Schlueter
+
+"Machine Learning for the Non-Computer Scientist: Where's the Easy Button"
+
+### NeSI
+
+"Managing Large Scale Data in a High-Performance Computing environment using the NeSI computational infrastructure"
+
+This session will cover a range of aspects regarding research data, in particular large scale data. We will cover best practices around storage and management of big datasets (including Data Management Plans) and advantages of storing research data within the compute infrastructure such as the one provided by the New Zealand eScience Infrastructure (NeSI). We will discuss main caveats regarding handling large-scale datasets for research. NeSI will also present its planned data services and solutions.
+
 
 
