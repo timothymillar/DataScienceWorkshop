@@ -13,7 +13,7 @@
 | 11.00 - 11.20   | Sara Jaeger                                                   | Plant and Food                                                                                 | Analysing Twitter and Unstructured Text Data                                                     |
 | 11.20 - 11.40   | Peter McAtee        | Plant and Food Research                | KiwiScan                    |
 | 11.40 - 12.00   | Ben Pyluc Jolly, David Medyckyj-Scott, Raphael Spiekermann, and Anne-Gaelle Ausseil | Landcare Research | A Tool for the Repeatable Generation and Automated Documentation of Land-use Classification Maps |
-| 12.00 - 12.30   | Coffee Break        | | 
+| 12.00 - 12.30   | Lunch        | | 
 | 12.30 - 1.00 | Richard Newcomb        | Chief Scientist, Plant & Food Research | Data to do with Smell |
 | 1.00 - 1.20  | Farhana Pinu        | Plant and Food | First Draft Metabolic Reconstruction of a Wine Yeast |
 | 1.20 - 1.40   | Gadi Bental, Richard Oliver, Robert Valkenburg, Andrew Wilson | Plant and Food, Compac sorting equipment, Soul Machines | TaDFu – 3D modelling of fruit  |
