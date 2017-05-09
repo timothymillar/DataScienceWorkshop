@@ -100,7 +100,7 @@ and a vega example where a 2-d scatter plot where you can follow points over tim
 
 "Synergy from Heterogeneous Data"
 
-This session will expand on Shannon’s presentation around data from disparate sources and the concept of machine learning. You will learn to use machine learning and big data approaches particularly R machine learning, big data search engine (spark) and speech recognition libraries (NLTK).
+This session will expand on Shannon’s presentation around data from disparate data domains. You will learn to use machine learning and big data approaches particularly R machine learning, big data search engine (spark) and speech recognition libraries (NLTK).
 
 ### Shannon Schlueter
 
