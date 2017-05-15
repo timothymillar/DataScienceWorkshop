@@ -1,5 +1,9 @@
 # Abstracts
 
+On behalf of Plant & Food Research I would like to welcome you to our inaugural Data Science Workshop. Never before has such a workshop been more timely, with everyone grappling with the management and analysis of ever increasing amounts of data. I hope you enjoy the presentations, events and networking opportunities that the workshop has been designed to deliver.
+
+Richard Newcomb, Plant and Food Research
+
 ## Day 1
 
 ### Shannon Schlueter (UNCC)
