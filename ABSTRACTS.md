@@ -62,6 +62,12 @@ Few biologists handle 'big data’ (> 1Tb) but now frequently encounter ‘large
 
 Analysis of social media data for consumer insights had been gaining popularity. In this talk, a study that analyses Tweets about eating situations is presented, alongside a discussion of the challenges encountered in the analysis process.  Emoji are commonly used by users of social media, and are said to play the role of non-verbal cues in computer mediated communications. Hence, emoji can alter the meaning of posts/messages and it is important to understand their meanings. Top-line results are presented from a study that investigates emoji sentiment. The presentation concludes with a brief perspective on the value of social media data in food-related consumer research.
 
+### Gadi Bental, Richard Oliver (Plant & Food Research), Robert Valkenburg (Compac sorting equipment), Andrew Wilson (Soul Machines)
+
+"TaDFu – 3D modelling of fruit"
+
+At packing time fruit are being graded by a sorting machine (or human graders) before they are packed and stored. Compac Sorting Equipment make grading machines based on computer vision. Fruit are graded for colour, shape, size and visual blemishes. The fruit are moving and rotating in front of several cameras at a rate of 10 fruits per second. About 200 images are taken of each fruit and the information from all these images need to be merged into a coherent picture of the fruit. We present here an algorithm to build an accurate 3D model of the fruit using these images.  The algorithm was used to build models of over 1000 fruit using a small sorter at Ruakura.
+
 ### Peter McAtee (Plant & Food Research)
 
 "KiwiScan"
