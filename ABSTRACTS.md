@@ -6,7 +6,7 @@ Richard Newcomb, Plant and Food Research
 
 ## Day 1
 
-### Shannon Schlueter (UNCC)
+### Shannon Schlueter (University of North Carolina, USA)
 
 “Universal data science challenges: Perspective from disparate data domains”
 
@@ -18,13 +18,13 @@ Data science is largely a domain agnostic discipline. Best practices and novel s
 
 In the first part of the seminar, I will discuss how we have applied ANNs for the detection of volatile organic compounds (VOCs) from the in vivo firings of insect olfactory neurons. In the second part of the seminar, I will discuss how we have applied Machine Learning approaches to identify Sharp wave transients in the EEG in order to aid the early detection of Hypoxic Ischemia in Newborn Infants.
 
-### Richard Newcomb (Chief Scientist, Plant & Food Research) 
+### Richard Newcomb (Plant & Food Research) 
 
 “Data to do with Smell”
 
 Smell is one of the most complex of our senses. Thousands of odours, hundreds of receptor genes, a few sensory perceptions and all with just one nose. In this talk I outline how we have used analysis and visualisation of data from genomes and odour space to unravel how odours are perceived in insects and humans
 
-### Tatiana Lomasko (CSST)
+### Tatiana Lomasko (Centre of Space Science Technology)
 
 “Big Space Data: What you do with it?”
 
@@ -50,19 +50,19 @@ Cloud Computing is a disruptive technology, but only when done right. In this pr
 
 Driven by modern instrumentation, big data in Omics has brought many opportunities and the fundamental changes. The changes include the approaches we store, analyse and share data; conclusions we can effectively reach and validate; and even in the way we communicate complex information to stakeholders. Based on my experience working with large data in Metabolomics, Transcriptomics and Genomics I present case studies to demonstrate the power of big data in generating exciting leads and the challenges we need to face. Making better use of big data in Omics demands enhanced computing environment, capability of dealing with heterogeneous information, and novel algorithms to reveal new connections and to model system effects of complex traits.    
 
-### John McCallum (PFR)
+### John McCallum (Plant & Food Research)
 
 "Better not Bigger: Thoughts on Foundation Data Science in Biology"
 
 Few biologists handle 'big data’ (> 1Tb) but now frequently encounter ‘large data’ that stretches their computational toolset and skills. There are often financial, social, technological or business barriers to data aspirants wishing to scale their practice. Realising value from data-rich technologies for our lives, business and communities will require that we work together to raise standards of digital scholarship, support diversity, and adopt lifelong learning practices. This presentation will provide an opinionated review of experience gained with large data and highlight the foundation data science skills that are helping us. In particular we will demonstrate examples of how the Python ecosystem is enabling choice, collaboration and scalability.  
 
-### Sara Jaeger (PFR)
+### Sara Jaeger (Plant & Food Research)
 
 "Analysis of Unstructured Consumer Insights"
 
 Analysis of social media data for consumer insights had been gaining popularity. In this talk, a study that analyses Tweets about eating situations is presented, alongside a discussion of the challenges encountered in the analysis process.  Emoji are commonly used by users of social media, and are said to play the role of non-verbal cues in computer mediated communications. Hence, emoji can alter the meaning of posts/messages and it is important to understand their meanings. Top-line results are presented from a study that investigates emoji sentiment. The presentation concludes with a brief perspective on the value of social media data in food-related consumer research.
 
-### Peter McAtee (PFR)
+### Peter McAtee (Plant & Food Research)
 
 "KiwiScan"
 
@@ -70,19 +70,19 @@ Selective breeding in fruit trees, arable crops and finfish currently involves r
 
 KiwiScan is a platform that was developed to address some of these issues. It was developed in-house to collect, storage, and computationally assess cross-sectional images of kiwifruit. This platform utilises open source image analysis software (ImageJ) to estimate tissue boundaries and then quantify the amount of colour present within each tissue selection. The use of this quantification platform  in conjunction with a previously genotyped kiwifruit block  has validated the selection of key red QTL locations and  highlighted some potential candidate QTL's for other important breeding traits.
 
-### Ben Pyluc Jolly, David Medyckyj-Scott, Raphael Spiekermann, and Anne-Gaelle Ausseil (Landcare)
+### Ben Pyluc Jolly, David Medyckyj-Scott, Raphael Spiekermann, and Anne-Gaelle Ausseil (Landcare Research)
 
 "A Tool for the Repeatable Generation and Automated Documentation of Land-use Classification Maps"
 
 Land-use classifications (LUCs) provide spatial information on different land uses over a given area, from local to national scale. They are typically constructed by applying complex rules over multiple spatial data sets, some of which require normalisation or pre-classification. While generally of good quality, documentation of this process is still variable and repeatability is a concern given the complexity involved. Most steps happen inside geographic information system (GIS) tools that do not strictly enforce documentation and data sets can be passed around researchers so tracking provenance can be problematic. Processing time for national scale LUCs is typically in the order of days. We present and discuss a tool created specifically to address these issues while optionally moving the creation of LUCs into the high-performance computing space. Called ‘pyluc’, it uses a single simplified Python script to define inputs and rules in a self-documenting way. Using this script, pyluc acquires input data from the original sources, applies the defined classification rules, and produces the resulting classification map along with supporting human-readable documentation and machine-readable W3C PROV data provenance information. Processing is raster-based (automatic rasterisation or reprojection of input data is provided) and tileable, with optional parallelisation that significantly reduces processing time. The only requirement to replicate a given LUC map with supporting documentation is the single pyluc definition script and the pyluc tool itself.
 
-### Farhana Pinu (PFR)
+### Farhana Pinu (Plant & Food Research)
 
 "First Draft Metabolic Reconstruction of a Wine Yeast"
 
 In this project, we are developing a metabolic model that will ultimately assist winemakers in identifying the effects of variable juice compositions and winemaking practices on the chemical composition of wines. In collaboration with the University of Queensland, Australia, we first developed the first CYC (online) database of Saccharomyces cerevisae EC1118 based on the publicly available genome annotations. This database was then used to generate the reconstruction of a mathematical model. This platform helped us to generate knowledge of wine yeast metabolism and fermentation behaviour. We curated and refined the draft reconstruction based on existing literature. Deletion, addition and modification of reactions, genes and metabolic pathways were carried out where appropriate to improve the draft model. The next step was to perform in silico juice manipulation experiments using an existing dataset that contains information about over 400 Sauvignon blanc grape juices and wines collected over four different harvesting seasons from different wine growing regions of New Zealand. We also used data obtained from the literature. Based on this information, the model is now able to generate over 1000 hypotheses regarding primary metabolism of Saccharomyces cerevisae EC1118. These hypotheses can be used to design and perform winemaking experiments to answer specific scientific questions. The results will be included in the metabolic model to validate and improve the prediction capability.
 
-### Burgueño, Eric (PFR)
+### Burgueño, Eric (Plant & Food Research)
 
 "Making Science Better: A Deep Dive into powerPlant"
 
