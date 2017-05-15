@@ -54,7 +54,9 @@ Few biologists handle 'big data’ (> 1Tb) but now frequently encounter ‘large
 
 ### Sara Jaeger (PFR)
 
-"Analysing Twitter and Unstructured Text Data"
+"Analysis of Unstructured Consumer Insights"
+
+Analysis of social media data for consumer insights had been gaining popularity. In this talk, a study that analyses Tweets about eating situations is presented, alongside a discussion of the challenges encountered in the analysis process.  Emoji are commonly used by users of social media, and are said to play the role of non-verbal cues in computer mediated communications. Hence, emoji can alter the meaning of posts/messages and it is important to understand their meanings. Top-line results are presented from a study that investigates emoji sentiment. The presentation concludes with a brief perspective on the value of social media data in food-related consumer research.
 
 ### Peter McAtee (PFR)
 
@@ -88,13 +90,16 @@ Have you ever heard of powerPlant and wondered exactly what it is? Are you using
 
 "Data Visualisation"
 
-Principles of data visualisation. How do we compare sizes, shapes, areas, colours and how can we use them to create visually informative graphs. We will then extend this to look at multi-dimensional and time series data using the NIWA climate database.
+This course wll comprise the following:
 
-We also show an example of vizualising Twitter data in a 2-d scatter plot using the T-SNE data reduction algorithm, then run through a more practical t-sne example based on a few versions found online using the MNIST dataset.
+- Principles of data visualisation. How do we compare sizes, shapes, areas, colours and how to use them to create visually informative graphs. Extending this to look at multi-dimensional and time series data using the NIWA climate database.
+
+- Examples of vizualising Twitter data in a 2-d scatter plot using the T-SNE data reduction algorithm, then run through a more practical t-sne example based on a few versions found online using the MNIST dataset.
  
-We wil also show to run javascript examples using D3/D3plus to show networks like this http://d3plus.org/examples/basic/9034389/,
+- How to run javascript examples using D3/D3plus to show networks like this http://d3plus.org/examples/basic/9034389/,
 and a vega example where a 2-d scatter plot where you can follow points over time https://vega.github.io/vega/examples/global-development/
  
+- How to dynamically visualise data using R, and evolving technologies plotly, rbokeh and shiny applications
 
 ### Shannon Schlueter
 
