@@ -34,4 +34,4 @@
 | 9.00 - 12.00 | Linley Jesson, Marcus Davy, Mark Wohlers |  Plant & Food Research | Data Visualisation | 
 | 9.00 - 12.00 | Shannon Schlueter | UNCC | Synergy from Heterogeneous Data |
 | 1.00 - 4.00  | Shannon Schlueter | UNCC | Machine Learning for the Non-Computer Scientist: Where's the Easy Button | 
-| 1.00 - 4.00  |  | NeSI | Managing Large Scale Data in a High-Performance Computing environment using the NeSI computational infrastructure |
+| 1.00 - 4.00  | Ben Roberts | NeSI | Managing Large Scale Data in a High-Performance Computing environment using the NeSI computational infrastructure |
