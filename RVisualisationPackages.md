@@ -53,7 +53,7 @@ install.packages(packages, repos="https://cran.stat.auckland.ac.nz")
 
 This code chunk will install the latest R packages from [GitHub](https://github.com/) using [devtools](https://github.com/hadley/devtools)
 
-If this step "times out" it is likely that you need to set your proxy proxy information (see above).
+If this step "times out" it is likely that you need to set your proxy information (see above).
 
 ```
 ## rmarkdown
