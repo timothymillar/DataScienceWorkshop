@@ -1,0 +1,170 @@
+source,target,strength
+KL,Applied Sensors,4
+MN,Berryfruit & Hops,11
+QR,Berryfruit & Hops,1
+EF,Bioactives,1
+MN,Bioactives,1
+QR,Bioactives,7
+KL,Biocontrol & Natural,3
+ST,Biocontrol & Natural,1
+IJ,Biodiversity & Contr,4
+KL,Biodiversity & Contr,7
+MN,Biodiversity & Contr,2
+OP,Biodiversity & Contr,17
+ST,Biodiversity & Contr,2
+KL,Bioinformatics,1
+CD,Biomaterials,5
+AB,Biometrics,1
+CD,Biometrics,1
+EF,Biometrics,1
+GH,Biometrics,1
+IJ,Biometrics,1
+KL,Biometrics,1
+MN,Biometrics,1
+OP,Biometrics,1
+QR,Biometrics,1
+ST,Biometrics,1
+KL,Bioprotection,1
+OP,Bioprotection,2
+QR,Biosecurity,1
+ST,Biosecurity,12
+KL,Breeding & Genomics,1
+MN,Breeding & Genomics,3
+ST,Breeding & Genomics,1
+AB,Carbohydrate Digesti,2
+EF,Carbohydrate Digesti,4
+MN,Carbohydrates,1
+QR,Carbohydrates,1
+ST,Carbohydrates,1
+EF,Cereals & Services,1
+GH,Cereals & Services,1
+QR,Cereals & Services,4
+KL,Chief Inform Officer,1
+KL,Cognitive Function,1
+KL,COO,1
+AB,Crop & Soil Science,1
+EF,Crop & Soil Science,7
+GH,Crop & Soil Science,6
+ST,Crop & Soil Science,2
+QR,Design and Engin.,1
+EF,Disease Risk Mgmt,3
+ST,Disease Risk Mgmt,2
+EF,Disinfestation,1
+OP,Disinfestation,1
+KL,Early Plant Developm,2
+KL,Engineering,1
+GH,Environmentl Impacts,14
+GH,Field Operations,6
+IJ,Flavour Genomics,2
+AB,Flowering & Fruit,2
+EF,Flowering & Fruit,1
+CD,Food Chem & Funct,5
+EF,Food Safety,4
+AB,Food Solutions,2
+EF,Food Solutions,4
+CD,Food Structure Engin,6
+GH,Forage Physiology,4
+AB,Fresh Food Metabol.,1
+EF,Fresh Food Metabol.,4
+MN,FRN,1
+GH,Genes & Analytical,2
+MN,Genes & Analytical,2
+QR,Genes & Analytical,1
+ST,Genes & Analytical,1
+AB,Harvesting Techn.,1
+QR,Harvesting Techn.,4
+AB,Hybridisation & Intr,4
+EF,Hybridisation & Intr,2
+EF,In vivo health valid,3
+ST,Insect Behaviour & E,16
+KL,Kiwifruit - Auckland,1
+MN,Kiwifruit - Auckland,1
+OP,Kiwifruit - Auckland,1
+KL,Kiwifruit - Kerikeri,1
+OP,Kiwifruit - Kerikeri,5
+MN,Kiwifruit - Te Puke,2
+OP,Kiwifruit - Te Puke,7
+QR,Kiwifruit - Te Puke,3
+CD,Kiwifruit & Subtropi,4
+IJ,Kiwifruit & Subtropi,1
+KL,Kiwifruit & Subtropi,4
+OP,Kiwifruit & Subtropi,1
+OP,Kiwifruit Entomology,7
+ST,Kiwifruit Entomology,1
+GH,Land Use Management,8
+AB,Mapping & Markers,3
+QR,Marine Products Team,6
+EF,Microbiome and Metab,5
+AB,Modelling,2
+GH,Modelling,12
+QR,Modelling,1
+QR,Molecular Bioprotect,1
+ST,Molecular Bioprotect,8
+KL,Molecular Sensing,5
+AB,Pathogen Biology,3
+EF,Pathogen Biology,3
+KL,Pathogen Biology,2
+MN,Pathogen Biology,1
+OP,Pathogen Biology,3
+QR,Pathogen Biology,1
+ST,Pathogen Biology,3
+AB,Physical Performance,3
+EF,Physical Performance,4
+MN,Physiology and Behav,1
+QR,Physiology and Behav,7
+CD,Phytochemical & Hlth,4
+EF,Phytochemistry,4
+EF,Pip & Wine Entomolog,3
+ST,Pip & Wine Entomolog,2
+EF,Pipfruit & Summerfru,3
+MN,Pipfruit & Summerfru,11
+CD,Plant Microbial Syst,1
+ST,Plant Microbial Syst,18
+KL,Pollination & Apicul,2
+QR,Pollination & Apicul,2
+ST,Pollination & Apicul,3
+EF,Post Harvest,2
+KL,Post Harvest,5
+AB,Production Footprint,1
+GH,Production Footprint,2
+QR,Production Technolog,2
+EF,Sensory & Consumer,10
+IJ,Sensory & Consumer,3
+KL,Sensory & Consumer,11
+GH,Soil Services,7
+ST,Soil Services,1
+GH,Sustainable Produc.,1
+CD,Vegetable,3
+MN,Vegetable,3
+QR,Vegetable,4
+ST,Vegetable,3
+EF,Viruses & Like,3
+ST,Viruses & Like,2
+AB,Viticulture & Oenolo,8
+CD,Viticulture & Oenolo,3
+None,Act & Intlgnt Packag,1
+None,Business Development,1
+None,Chief Fin Officer,1
+None,Colour & Health,1
+None,Commercial Group,1
+None,Communications,1
+None,Corporate CEO,1
+None,Design & Photography,1
+None,Digestive Health,1
+None,Food Innovation Mgmt,1
+None,Host Microbe Interac,1
+None,Human Resources,1
+None,International Ops,1
+None,Kiwifruit Breeding Mgmt,1
+None,Legal,1
+None,Microscopy & Cell Wa,1
+None,Molecular Physiology,1
+None,Physiological Chem.,1
+None,Plant Pigments,1
+None,Plant Variety Rights,1
+None,Projects Office,1
+None,Property Corp,1
+None,Seafood Mgmt,1
+None,Strategy,1
+None,Transformation,1
+None,Biometrics,1

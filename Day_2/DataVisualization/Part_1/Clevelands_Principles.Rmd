@@ -1,0 +1,47 @@
+---
+title: "Cleveland's Prinicples of Graph Construction"
+author: "William S. Cleveland"
+date: "1994"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cleveland (and Robbin's) key visualisation principles...
+
+### Clear vision
+ - Make the data stand out. Avoid superfluity
+ - Use visually prominent graphical elements to show the data
+ - Do not clutter the data region
+ - Do not overdo the number of tick marks
+ - Use a reference line when there is an important value that must be seen across the entire graph, but do not let that line interfere with the data
+ - Do not allow data labels in the data region to interfer with the quantitative data or to clutter the graph
+ Avoid putting notes, keys and markers in the data region. Put keys and markers just outside the data region and put notes in the legend or in the text
+ - Overlapping plotting symbols must be visually distinguishable
+ - Superimposed datasets must be readily visually discriminated
+ - Visual clarity must be preserved under reduction and reproduction
+ 
+### Clear understanding
+   - Put major conclusions into graphical form. Make legends comprehensive and informative
+   - Error bars should be clearly explained
+   - When logarithms of a variable are graphed the scale label should correspond to the tick mark labels
+   - Proofread graphs
+   - Strive for clarity
+
+### Scales
+  - Choose the range of the tick marks to include or nearly include the range of data
+  - Subject to the constraints that scales have so that the data fill up as much of the data region as possible
+  - It is sometimes helpful to use the pair of scale lines for a variable to show two different scales
+  - Choose appropriate scales when graphs are compared
+  - Do not insist that zero always be included on a scale showing magnitude
+  - Use logarithmic scale when it is important to understand percent change or multiplicative factors
+  - Showing data on a logarithmic scale can improve resolution
+  Use a scale break only when necessary. If a break cannot be avoided, use a full scale break. Do not connect numerical values of two sides of a break
+  
+#### General strategy
+  - A large amount of quantitative information can be packed into a small region
+  - Graphing data should be an iterative, experimental process
+  - Graph data two or more times when it is needed
+  - Many useful graphs require careful, detailed study.

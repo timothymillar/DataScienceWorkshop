@@ -1,0 +1,14 @@
+## http://www.planttext.com/planttext
+## Make a png, save the url to
+## curl -o image/file.png [URL]
+
+## ------------------------------- narrative+code Rmd to doc ----------------------------- #
+
+@startuml
+
+  "<b>Data</b> \n (optional)" as c -right-> "<b>Reproducible research</b> \n <b>software</b>" as b
+"<b>narrative\n<&plus>\n<b>code</b>" as f -down-> [entangle]  "<b>Reproducible research</b> \n <b>software</b>" as b
+      "<b>Computing</b> \n <b>environment</b>" as e -down->  "<b>Reproducible research</b> \n <b>software</b>" as b
+  "<b>Reproducible research</b> \n <b>software</b>" as b -right-> [render] "<b>Dynamically</b>\n<b>generated</b>\n<b>report</b>" as d
+
+@enduml
