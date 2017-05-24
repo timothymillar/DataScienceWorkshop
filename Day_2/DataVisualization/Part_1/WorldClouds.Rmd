@@ -1,0 +1,54 @@
+---
+title: "Wordclouds"
+author: "Linley Jesson"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+library(dplyr);library(modelr);library(ggplot2);library(vegan);library(ggrepel);library(RColorBrewer)
+```
+
+## Making wordclouds with ggplot
+Dune data from library Vegan; long for plotting
+
+```{r}
+data(dune.env)
+data(dune)
+dune <- data.frame(dune,dune.env)
+dune_l <- tidyr::gather(dune,"Species","Number",-A1,
+                        -Moisture,-Management,-Use,-Manure)
+head(dune_l)
+```
+## geom_text_repel for word cloud
+Conditioned on Management and Use
+
+```{r}
+pword <- dune_l %>% 
+  filter(Manure=="3") %>% 
+  group_by(Management,Use) %>% 
+  slice(1:10) %>%
+  ggplot                                                                        +
+  aes(x = 1, y = 1, size = Number, label = Species, colour = Number)            +
+  geom_text_repel(segment.size = 0, force = 100,
+                  segment.colour = "transparent") +
+  facet_wrap(Management~Use)                                                    +
+  scale_size(range = c(3, 7), guide = FALSE)                                    +
+  scale_y_continuous(breaks = NULL)                                             +
+  scale_x_continuous(breaks = NULL)                                             +
+  labs(x = '', y = '')                                                          +
+  theme_bw()                                                                    +
+  scale_colour_gradientn(colours = brewer.pal(n = 9,name = "Spectral"),
+                         guide = F)
+
+
+
+
+```
+
+## Wordcloud
+
+```{r}
+pword
+```
+
