@@ -1,0 +1,206 @@
+---
+title: Genome Scale Data Visualisation.
+subtitle: With HoloViews, Datashader and Bokeh.
+author:
+ - name: Tim Millar, John McCallum and Susan Thomson
+output: pfrticles::PFR_ioslides
+---
+
+## Issues Visualising Genome Scale Data
+
+<div class="columns-2">
+
+- Genome browsers for viewing specific file formats
+	  - not flexible 
+
+<IMG SRC="img/blank200.png">
+
+- Plotting libraries for viewing statistical results
+	  - struggle with genome scale data
+
+<IMG SRC="img/blank200.png">
+	  
+<IMG SRC="img/plot_libs_vert.png">
+
+</div>
+
+## Aims
+
+- Flexible, ad hoc plotting 
+- Genome scale data (millions of points)
+- Statistical data
+- Bioinformatic data
+
+## Example: Site-wise F<sub>ST</sub>
+
+- Measure of population differentiation due to genetic structure
+- In this case differentiation between male and female Kiwifruit
+- Indicates proportion of variance explained by population structure
+- Calculated in ANGSD
+- Sex Chromosome: 16,995,348 points
+
+## Windowed F<sub>ST</sub> in ggplot
+
+<IMG SRC="fig/fst_window_crop.png" ALT="Image by John McCallum" WIDTH=500 HEIGHT=400>
+
+## Scatter Plots in IGV?
+
+![source: software.broadinstitute.org/software/igv/scatterplots](img/igv_scatterplot.png)
+
+## Datashader
+
+![source: datashader.org](img/usa_census.jpg)
+
+
+
+## Sitewise F<sub>ST</sub> in Datashader
+
+<IMG SRC="fig/plot_1_screen.png" HEIGHT=300>
+
+
+
+## Datashader with Bokeh
+
+- Heatmap-like raster images with pixels as cells
+    1. Projection
+    2. Aggregation
+    3. Transformation
+- Can be wrapped with Bokeh to provide interactivity 
+
+
+<IMG SRC="img/datashader_and_bokeh.png">
+
+
+
+## Datashader + Bokeh is complex
+
+```{python, eval = FALSE}
+def interactive_xy(df, xcol='', ycol='', **kwargs):
+    # LOTS MORE CODE TO HANDLE OPTIONS
+    # create the base plot
+    plot = figure(**kwargs)
+    # function for image replotting
+    def create_image(x_range, y_range, w, h):
+        cvs = ds.Canvas(**kwargs)
+        agg = cvs.points(df, xcol, ycol)
+        img = tf.shade(agg, cmap=palette, how=shade_method)
+        return tf.dynspread(img, threshold=density_threshold, max_px=max_px)
+    # plot the interactive image
+    export_image(create_image(x_range, y_range, width, height), 'export')
+    return InteractiveImage(plot, create_image)
+```
+
+## Why HoloViews? | A high level wrapper for Bokeh, Datashader and more
+
+## Why HoloViews? | A high level wrapper for Bokeh, Datashader and more
+
+```{python eval = FALSE}
+plot = datashade(hv.Points(data, kdims=['position', 'Fst']))
+```
+
+<IMG SRC="img/holoviews_equation.png">
+
+
+## Genomic Data?
+
+
+## Genomic Data? | Example: aligned reads
+
+- Aligned reads from one male (female reference)
+- 4,311,450 reads (paths)
+- 6,995,750 variants (points)
+- Stacking?
+- Compose read and variants layers?
+
+
+## Stacking Reads 
+
+<IMG SRC="fig/read_stack.png">
+
+
+## Stacking Reads
+
+```{python}
+def stack(reads):
+    cache = {}
+    for start, stop in reads:
+        height = 0
+        searching = True
+        while searching:
+            if height in cache:
+                if start < cache[height]:
+                    height += 1
+                else:
+                    cache[height] = stop
+                    searching = False
+            else:
+                cache[height] = stop
+                searching = False
+        yield height
+```
+
+## Composing Layers
+
+```{python eval = FALSE}
+reads = dynspread(datashade(holoviews.Path(read_data)))
+variants = dynspread(datashade(holoviews.Points(var_data)))
+reads + variants
+```
+
+## Composing Layers
+
+```{python eval = FALSE}
+reads = dynspread(datashade(holoviews.Path(read_data)))
+variants = dynspread(datashade(holoviews.Points(var_data)))
+reads + variants
+```
+
+<IMG SRC="fig/compose_reads_0_250_220.png">
+
+## Composing Layers
+
+```{python eval = FALSE}
+reads = dynspread(datashade(holoviews.Path(read_data)))
+variants = dynspread(datashade(holoviews.Points(var_data)))
+reads + variants + (reads * variants)
+```
+
+<IMG SRC="fig/compose_reads_250_220.png">
+
+
+
+## F<sub>ST</sub> with Aligned Reads
+
+<IMG SRC="fig/plot_2_screen.png" HEIGHT=500>
+
+
+## Transposon distribution in Grape | Grape Genetic Improvement Programme
+
+<IMG SRC="fig/plot_3_screen.png" HEIGHT=349>
+
+
+
+## Concluding Remarks
+
+- Datashader for visualising massive data sets
+    - datashader.org
+- Bokeh for interactive figures
+    - bokeh.pydata.org
+- HoloViews for making life easy
+    - holoviews.org
+
+## Acknowledgements
+
+
+
+**Kiwifruit Breeding Programme**: Data & Funding
+
+<IMG SRC="img/plantandfood.logo.png" HEIGHT=100>
+
+
+**Grape Genetic Improvement Programme**: Data
+
+<IMG SRC="img/plantandfood_lincoln.logo.png" HEIGHT=150>
+
+
+
