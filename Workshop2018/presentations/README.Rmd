@@ -27,9 +27,8 @@ schedule$Time[26] <- "6:30"
 schedule$Time[48] <- "3:00"
 ## remove second title...
 schedule <- schedule[-27,]
-
+## mistake in excel
 mark_title <- strsplit(schedule$Speaker[40], "-")
-mark_title
 schedule$Speaker[40] <- mark_title[[1]][1]
 schedule$Title[40] <- mark_title[[1]][2]
 
@@ -48,7 +47,11 @@ hux(schedule %>% filter(day == 1) %>% select(Time, Event, Speaker, Title),
   set_bold(1, 1:4, TRUE)
 ```
 
+.
+
 ## Day 2
+
+
 
 ```{r day-2}
 hux(schedule %>% filter(day == 2) %>% select(Time, Event, Speaker, Title),

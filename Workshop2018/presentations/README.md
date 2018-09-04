@@ -327,6 +327,8 @@ Dinner
 </tr>
 </table>
 <!--/html_preserve-->
+.
+
 Day 2
 -----
 
