@@ -1,0 +1,52 @@
+---
+title: "Data Science Workshop 2018 Programme"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(huxtable)
+
+options('huxtable.knitr_output_format' = 'md',
+        'huxtable.knit_print_df' = FALSE)
+
+schedule <- readxl::read_excel("DataScienceWorkshop2018_schedule.xlsx",
+                               skip = 1, col_names = TRUE)         %>%
+  tidyr::separate(`Speaker - Title`, c("Speaker", "Title"), " - ") %>% ## separate speaker and talk title
+  dplyr::rename(Event = `Day1 5th Sept`)                           %>% ## rename column
+  dplyr::filter(rowSums(is.na(.)) != ncol(.))                      %>% ## remove empty rows
+  dplyr::mutate(day = c(rep(1, 26), rep(2, 22)))                       ## add day for simple subsetting
+
+## recode NA
+schedule[is.na(schedule)] <- ""
+## recode some excel BS
+schedule$Time[26] <- "6:30"
+schedule$Time[48] <- "3:00"
+## remove second title...
+schedule <- schedule[-27,]
+```
+
+## Day 1
+
+```{r day-1}
+hux(schedule %>% filter(day == 1) %>% select(Time, Event, Speaker, Title),
+    add_colnames = TRUE)                       %>% 
+  set_width(1)                                 %>%
+  set_col_width(value = c(0.1, 0.2, 0.2, 0.5)) %>% 
+  set_bottom_border(1, 1:4, 1)                 %>%
+  set_bold(1, 1:4, TRUE)
+```
+
+## Day 2
+
+```{r day-2}
+hux(schedule %>% filter(day == 2) %>% select(Time, Event, Speaker, Title),
+    add_colnames = TRUE)                       %>% 
+  set_width(1)                                 %>%
+  set_col_width(value = c(0.1, 0.2, 0.2, 0.5)) %>% 
+  set_bottom_border(1, 1:4, 1)                 %>%
+  set_bold(1, 1:4, TRUE)
+```
