@@ -10,7 +10,7 @@ library(dplyr)
 library(tidyr)
 library(huxtable)
 
-options('huxtable.knitr_output_format' = 'md',
+options('huxtable.knitr_output_format' = 'html',
         'huxtable.knit_print_df' = FALSE)
 
 schedule <- readxl::read_excel("DataScienceWorkshop2018_schedule.xlsx",
@@ -27,6 +27,12 @@ schedule$Time[26] <- "6:30"
 schedule$Time[48] <- "3:00"
 ## remove second title...
 schedule <- schedule[-27,]
+
+mark_title <- strsplit(schedule$Speaker[40], "-")
+mark_title
+schedule$Speaker[40] <- mark_title[[1]][1]
+schedule$Title[40] <- mark_title[[1]][2]
+
 ```
 
 ## Day 1
@@ -35,7 +41,9 @@ schedule <- schedule[-27,]
 hux(schedule %>% filter(day == 1) %>% select(Time, Event, Speaker, Title),
     add_colnames = TRUE)                       %>% 
   set_width(1)                                 %>%
-  set_col_width(value = c(0.1, 0.2, 0.2, 0.5)) %>% 
+  set_col_width(value = c(0.1, 0.2, 0.2, 0.5)) %>%
+  set_colspan(c(4,5,11,18,27), 2, 3)           %>%
+  set_colspan(c(25, 26), 3, 2)                 %>%
   set_bottom_border(1, 1:4, 1)                 %>%
   set_bold(1, 1:4, TRUE)
 ```
@@ -47,6 +55,7 @@ hux(schedule %>% filter(day == 2) %>% select(Time, Event, Speaker, Title),
     add_colnames = TRUE)                       %>% 
   set_width(1)                                 %>%
   set_col_width(value = c(0.1, 0.2, 0.2, 0.5)) %>% 
+  set_colspan(c(10,18,19,21,22), 2, 3)          %>%
   set_bottom_border(1, 1:4, 1)                 %>%
   set_bold(1, 1:4, TRUE)
 ```
