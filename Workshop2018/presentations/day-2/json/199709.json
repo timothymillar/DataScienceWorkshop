@@ -1,0 +1,474 @@
+{
+  "version": 1,
+  "width": 71,
+  "height": 25,
+  "duration": 37.374970,
+  "command": "/bin/bash",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.436989,
+      "\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info\u0007"
+    ],
+    [
+      0.001792,
+      "\u001b[?1034h\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      1.105583,
+      "\r\n\u001b[?1l\u001b\u003e\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info\u0007\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      4.170852,
+      "p"
+    ],
+    [
+      0.084787,
+      "w"
+    ],
+    [
+      0.063928,
+      "d"
+    ],
+    [
+      0.166961,
+      "\r\n\u001b[?1l\u001b\u003e/workspace/hramwd/github/lsb-account-info\r\n\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info\u0007\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      1.392254,
+      "c"
+    ],
+    [
+      0.084229,
+      "d"
+    ],
+    [
+      0.425844,
+      " "
+    ],
+    [
+      0.477711,
+      "t"
+    ],
+    [
+      0.196928,
+      "e"
+    ],
+    [
+      0.097922,
+      "s"
+    ],
+    [
+      0.205646,
+      "t"
+    ],
+    [
+      0.502639,
+      "s"
+    ],
+    [
+      0.491322,
+      "\r\n\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.003791,
+      "\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info/tests\u0007\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      2.633383,
+      "l"
+    ],
+    [
+      0.114798,
+      "s"
+    ],
+    [
+      0.105249,
+      " "
+    ],
+    [
+      0.154663,
+      "-"
+    ],
+    [
+      0.136767,
+      "l"
+    ],
+    [
+      0.219529,
+      "\r\n\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.007481,
+      "total 136\r\n-rw-r--r--. 1 hramwd powerplant 1399 Aug 31 10:56 README.Rmd\r\n-rwxr-xr-x. 1 hramwd powerplant  738 Jun  1 14:04 \u001b[0m\u001b[38;5;34mtest-data.sh\u001b[0m\r\n-rwxr-xr-x. 1 hramwd powerplant  829 Sep  3 16:41 \u001b[38;5;34mtest-random.sh\u001b[0m\r\ndrwxr-sr-x. 3 hramwd powerplant  179 Sep  5 16:22 \u001b[38;5;27mtestthat\u001b[0m\r\n-rw-r--r--. 1 hramwd powerplant  390 Jun  8 14:33 testthat.R\r\n"
+    ],
+    [
+      0.000235,
+      "\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info/tests\u0007\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      0.663105,
+      "m"
+    ],
+    [
+      0.142825,
+      "o"
+    ],
+    [
+      0.096491,
+      "d"
+    ],
+    [
+      0.223485,
+      "u"
+    ],
+    [
+      0.178693,
+      "l"
+    ],
+    [
+      0.220684,
+      "e"
+    ],
+    [
+      0.242995,
+      " "
+    ],
+    [
+      0.301942,
+      "l"
+    ],
+    [
+      0.199698,
+      "o"
+    ],
+    [
+      0.115831,
+      "a"
+    ],
+    [
+      0.057706,
+      "d"
+    ],
+    [
+      0.074196,
+      " "
+    ],
+    [
+      0.411180,
+      "R"
+    ],
+    [
+      0.590344,
+      "/"
+    ],
+    [
+      0.502859,
+      "3"
+    ],
+    [
+      0.126557,
+      "."
+    ],
+    [
+      0.105446,
+      "4"
+    ],
+    [
+      0.077739,
+      "."
+    ],
+    [
+      0.137218,
+      "3"
+    ],
+    [
+      0.769288,
+      "\r\n\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.172969,
+      "\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info/tests\u0007\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      1.283601,
+      "R"
+    ],
+    [
+      0.233134,
+      "s"
+    ],
+    [
+      0.088854,
+      "c"
+    ],
+    [
+      0.273524,
+      "r"
+    ],
+    [
+      0.114954,
+      "i"
+    ],
+    [
+      0.113421,
+      "p"
+    ],
+    [
+      0.114907,
+      "t"
+    ],
+    [
+      0.186393,
+      " "
+    ],
+    [
+      0.388098,
+      "t"
+    ],
+    [
+      0.066098,
+      "e"
+    ],
+    [
+      0.057552,
+      "s"
+    ],
+    [
+      0.104329,
+      "t"
+    ],
+    [
+      0.221170,
+      "t"
+    ],
+    [
+      0.262067,
+      "h"
+    ],
+    [
+      0.161444,
+      "a"
+    ],
+    [
+      0.094813,
+      "t"
+    ],
+    [
+      0.404221,
+      "."
+    ],
+    [
+      0.351972,
+      "R"
+    ],
+    [
+      0.511781,
+      "\r\n\u001b[?1l\u001b\u003e"
+    ],
+    [
+      2.724731,
+      "✔ | OK \u001b[31mF\u001b[39m \u001b[35mW\u001b[39m \u001b[34mS\u001b[39m | Context\r\n"
+    ],
+    [
+      0.211032,
+      "\r⠏ |  0       | Test SQLite database"
+    ],
+    [
+      0.190988,
+      "\r⠋ |  1       | Test SQLite database"
+    ],
+    [
+      0.008261,
+      "\r⠙ |  2       | Test SQLite database"
+    ],
+    [
+      0.010712,
+      "\r⠹ |  3       | Test SQLite database"
+    ],
+    [
+      0.034007,
+      "\r⠸ |  4       | Test SQLite database"
+    ],
+    [
+      0.057039,
+      "\r⠼ |  5       | Test SQLite database"
+    ],
+    [
+      0.008960,
+      "\r⠴ |  6       | Test SQLite database"
+    ],
+    [
+      0.361017,
+      "\r⠦ |  7       | Test SQLite database"
+    ],
+    [
+      0.055010,
+      "\r⠧ |  8       | Test SQLite database\r⠇ |  9       | Test SQLite database\r\u001b[32m✔\u001b[39m |  9       | Test SQLite database\u001b[36m [0.7 s]\u001b[39m\r\n"
+    ],
+    [
+      0.032970,
+      "\r⠏ |  0       | select and filter functions"
+    ],
+    [
+      4.849023,
+      "\r⠋ |  1       | select and filter functions"
+    ],
+    [
+      0.009390,
+      "\r⠙ |  2       | select and filter functions\r⠹ |  3       | select and filter functions\r⠸ |  4       | select and filter functions"
+    ],
+    [
+      0.034599,
+      "\r⠼ |  5       | select and filter functions"
+    ],
+    [
+      0.005991,
+      "\r⠴ |  6       | select and filter functions\r⠦ |  7       | select and filter functions"
+    ],
+    [
+      0.149015,
+      "\r⠧ |  8       | select and filter functions"
+    ],
+    [
+      0.008975,
+      "\r⠇ |  9       | select and filter functions\r⠏ | 10       | select and filter functions\r⠋ | 11       | select and filter functions\r⠙ | 12       | select and filter functions"
+    ],
+    [
+      0.532032,
+      "\r⠹ | 13       | select and filter functions\r⠸ | 14       | select and filter functions"
+    ],
+    [
+      0.092995,
+      "\r⠼ | 15       | select and filter functions"
+    ],
+    [
+      0.365012,
+      "\r⠴ | 16       | select and filter functions"
+    ],
+    [
+      0.096995,
+      "\r⠦ | 17       | select and filter functions"
+    ],
+    [
+      0.113003,
+      "\r⠧ | 18       | select and filter functions"
+    ],
+    [
+      0.071003,
+      "\r⠇ | 19       | select and filter functions"
+    ],
+    [
+      0.008956,
+      "\r⠏ | 20       | select and filter functions"
+    ],
+    [
+      0.252034,
+      "\r⠋ | 21       | select and filter functions"
+    ],
+    [
+      1.252051,
+      "\r⠙ | 22       | select and filter functions"
+    ],
+    [
+      0.008962,
+      "\r⠹ | 23       | select and filter functions\r⠸ | 24       | select and filter functions\r⠼ | 25       | select and filter functions"
+    ],
+    [
+      0.008960,
+      "\r\u001b[32m✔\u001b[39m | 25       | select and filter functions"
+    ],
+    [
+      0.003858,
+      "\u001b[36m [7.8 s]\u001b[39m\r\n"
+    ],
+    [
+      0.005934,
+      "\r⠏ |  0       | user information\r⠋ |  1       | user information"
+    ],
+    [
+      0.012220,
+      "\r⠙ |  2       | user information"
+    ],
+    [
+      0.008984,
+      "\r⠹ |  3       | user information\r⠸ |  4       | user information\r⠼ |  5       | user information\r⠴ |  6       | user information\r⠦ |  7       | user information"
+    ],
+    [
+      0.010003,
+      "\r⠧ |  8       | user information"
+    ],
+    [
+      0.035032,
+      "\r⠇ |  9       | user information"
+    ],
+    [
+      0.008969,
+      "\r⠏ | 10       | user information"
+    ],
+    [
+      0.023012,
+      "\r⠋ | 11       | user information"
+    ],
+    [
+      0.008027,
+      "\r⠙ | 12       | user information\r⠹ | 13       | user information\r⠸ | 14       | user information\r⠼ | 15       | user information"
+    ],
+    [
+      0.003975,
+      "\r⠴ | 16       | user information"
+    ],
+    [
+      0.009985,
+      "\r⠦ | 17       | user information"
+    ],
+    [
+      0.011998,
+      "\r⠧ | 18       | user information"
+    ],
+    [
+      0.009997,
+      "\r⠇ | 19       | user information"
+    ],
+    [
+      0.009011,
+      "\r\u001b[32m✔\u001b[39m | 19       | user information\u001b[36m [0.1 s]\u001b[39m\r\n\r\n══ \u001b[1mResults\u001b[22m ═════════════════════════════════════════════════════════════════════\r\n"
+    ],
+    [
+      0.008988,
+      "\u001b[36mDuration: 9.2 s\u001b[39m\r\n\r\nOK:       \u001b[32m53\u001b[39m\r\nFailed:   \u001b[32m0\u001b[39m\r\nWarnings: \u001b[32m0\u001b[39m\r\nSkipped:  \u001b[32m0\u001b[39m\r\n"
+    ],
+    [
+      0.039035,
+      "Warning message:\r\ncall dbDisconnect() when finished working with a connection \r\n"
+    ],
+    [
+      0.032082,
+      "\u001b]0;hramwd@aklppf31:/workspace/hramwd/github/lsb-account-info/tests\u0007\u001b[?1h\u001b=bash-4.2$ "
+    ],
+    [
+      1.137964,
+      "e"
+    ],
+    [
+      0.055804,
+      "x"
+    ],
+    [
+      0.146949,
+      "i"
+    ],
+    [
+      0.169896,
+      "t"
+    ],
+    [
+      0.337876,
+      "\r\n\u001b[?1l\u001b\u003eexit\r\n"
+    ]
+  ]
+}
