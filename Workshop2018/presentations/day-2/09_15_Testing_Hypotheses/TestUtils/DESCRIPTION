@@ -1,0 +1,14 @@
+Package: code
+Title: Provides an example of testing
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: TestUtils package
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
